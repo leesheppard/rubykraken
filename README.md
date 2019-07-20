@@ -33,6 +33,12 @@ Deploy to Staging
 now --target staging
 ```
 
+Running locally
+
+```bash
+bundle exec jekyll serve
+```
+
 ## Contact
 
 Thanks for checking out my work.

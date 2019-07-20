@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "ruby-kraken",
-  "alias": ["rubykraken.com"],
+
   "builds": [
     { "src": "build.sh", "use": "@now/static-build", "config": { "distDir": "_site" } }
   ]
