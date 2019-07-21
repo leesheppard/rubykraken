@@ -17,6 +17,33 @@ An experiment with Jekyll, Webpack and React.
 | [Jekyll](Gemfile#L3)   | [![Jekyll Version](https://badge.fury.io/rb/jekyll.svg)](https://badge.fury.io/rb/jekyll)                |
 | Bundler                | [![Bundler Version](https://badge.fury.io/rb/bundler.svg)](https://badge.fury.io/rb/bundler)             |
 
+### Setup
+
+In your local development location, clone the app:
+
+```bash
+$ git clone https://github.com/leesheppard/rubykraken.git
+$ cd rubykraken
+```
+
+### Development
+
+Prior to testing in the browser, run `webpack` to compile the JS and 
+`jekyll build` so Jekyll will register the newly compiled file.
+
+````bash
+$ webpack
+$ jekyll build
+$ bundle exec jekyll serve
+````
+
+You can keep Jekyll watching changes to `bundle.js` with
+
+```bash
+$ jekyll build -w 
+$ webpack -w
+```
+
 ### Deployment
 
 Code integration is with CodeShip and will push to production once the Master branch passes.
@@ -30,13 +57,13 @@ $ now --target production
 Deploy to Staging
 
 ```bash
-now --target staging
+$ now --target staging
 ```
 
 Running locally
 
 ```bash
-bundle exec jekyll serve
+$ bundle exec jekyll serve
 ```
 
 ## Contact
