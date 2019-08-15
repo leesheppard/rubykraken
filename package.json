@@ -4,6 +4,11 @@
   "description": "jekyll with reactjs and webpack",
   "author": "Lee Sheppard",
   "license": "ISC",
+  "private": true,
+  "scripts": {
+    "install": "gem install bundler && bundle install",
+    "build": "jekyll build"
+  },
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.4",
@@ -13,10 +18,5 @@
     "react-addons-update": "^15.6.2",
     "react-dom": "^16.8.6",
     "webpack": "^4.36.1"
-  },
-  "private": true,
-  "scripts": {
-    "install": "yum install ruby23-devel.x86_64 && gem install bundler && bundle install",
-    "build": "jekyll build"
   }
 }
