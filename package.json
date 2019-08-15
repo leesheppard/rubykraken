@@ -4,11 +4,6 @@
   "description": "jekyll with reactjs and webpack",
   "author": "Lee Sheppard",
   "license": "ISC",
-  "private": true,
-  "scripts": {
-    "install": "gem install bundler && bundle install",
-    "build": "jekyll build"
-  },
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.4",
