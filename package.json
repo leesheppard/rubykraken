@@ -16,6 +16,8 @@
     "webpack": "^4.36.1"
   },
   "scripts": {
-    "build": "jekyll build"
+    "build": "jekyll build",
+    "use": "@now/static-build",
+    "config": { "distDir": "_site" }
   }
 }
