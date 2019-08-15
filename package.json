@@ -5,9 +5,6 @@
   "author": "Lee Sheppard",
   "license": "ISC",
   "private": true,
-  "scripts": {
-    "build": "jekyll build"
-  },
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.4",
@@ -17,5 +14,8 @@
     "react-addons-update": "^15.6.2",
     "react-dom": "^16.8.6",
     "webpack": "^4.36.1"
+  },
+  "scripts": {
+    "build": "jekyll build"
   }
 }
