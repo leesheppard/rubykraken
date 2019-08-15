@@ -13,5 +13,9 @@
     "react-addons-update": "^15.6.2",
     "react-dom": "^16.8.6",
     "webpack": "^4.36.1"
+  },
+  "scripts": {
+    "install": "yum install ruby23-devel.x86_64 && gem install bundler --no-ri --no-rdoc && bundle install",
+    "build": "jekyll build"
   }
 }
