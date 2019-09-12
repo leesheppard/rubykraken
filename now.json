@@ -3,6 +3,6 @@
   "name": "ruby-kraken",
 
   "builds": [
-    { "src": "build.sh", "use": "@now/static-build", "config": { "distDir": "_site" } }
+    { "src": "build.sh", "use": "@now/static-build", "config": { "distDir": "src" } }
   ]
 }
