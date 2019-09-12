@@ -13,11 +13,14 @@
     "react": "^16.8.6",
     "react-addons-update": "^15.6.2",
     "react-dom": "^16.8.6",
-    "webpack": "^4.36.1"
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.8"
   },
   "scripts": {
     "build": "jekyll build",
     "use": "@now/static-build",
-    "config": { "distDir": "_site" }
+    "config": {
+      "distDir": "_site"
+    }
   }
 }
