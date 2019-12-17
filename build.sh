@@ -5,4 +5,4 @@ gem install jekyll bundler
 
 bundle install
 
-jekyll build
+bundle exec jekyll build
