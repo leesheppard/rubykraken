@@ -1,12 +1,10 @@
+const path = require('path');
+
 module.exports = {
-    target: "node",
-    node: {
-        __dirname: true
-    },
     // webpack folder's entry js - excluded from jekyll's build process.
     entry: "./webpack/entry.js",
     output: {
-        path: __dirname + "src/assets/javascripts",
+        path: path.resolve(__dirname, "src/assets/javascripts"),
         filename: "bundle.js"
     },
     module: {
