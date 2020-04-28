@@ -22,6 +22,16 @@ html,body {
   color: #fff;
 }
 
+.logo {
+  padding: 100px;
+  width: 800px;
+
+  img {
+    box-shadow: 3px 3px 5px 6px #ccc;
+    width: 100%;
+  }
+}
+
 .kraken {
   background-image: url("http://assets.sheppard.io/png/sheppard_ruby_kraken_600x600.png");
   background-repeat: no-repeat;
@@ -30,6 +40,13 @@ html,body {
   height: 600px;
   right: 0;
   width: 600px;
+}
+
+.kraken-logo {
+  background-image: url("http://assets.sheppard.io/svg/defs.svg#krak");
+  fill: white;
+  height: 45px;
+  width: 159px;
 }
 
 .star-five {
