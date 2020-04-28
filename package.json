@@ -17,6 +17,7 @@
     "webpack-cli": "^3.3.10"
   },
   "scripts": {
+    "start": "webpack",
     "build": "jekyll build",
     "use": "@now/static-build",
     "config": {
