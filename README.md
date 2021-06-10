@@ -51,13 +51,13 @@ Code integration is with CodeShip and will push to production once the Master br
 Deploy to Production
 
 ```bash
-$ now --target production
+$ vercel --target production
 ```
 
 Deploy to Staging
 
 ```bash
-$ now --target staging
+$ vercel --target staging
 ```
 
 Running locally
