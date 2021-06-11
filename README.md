@@ -1,13 +1,10 @@
 # README
-
-![Ruby Kraken](http://assets.sheppard.io/png/sheppard_ruby_kraken_600x600.png)
+An experiment with Jekyll, Webpack and React.
 
 # Ruby Kraken
 [![forthebadge](https://forthebadge.com/images/badges/made-with-ruby.svg)](https://forthebadge.com)
 
 [![Codeship Status for leesheppard/rubykraken](https://app.codeship.com/projects/6f62dd20-8d11-0137-2c97-0e4ef29cce88/status?branch=master)](https://app.codeship.com/projects/355470)
-
-An experiment with Jekyll, Webpack and React.
 
 ## Requirements
 
