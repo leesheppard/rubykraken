@@ -19,9 +19,9 @@
   "scripts": {
     "start": "webpack",
     "build": "jekyll build",
-    "use": "@vercel/static-build",
-    "config": {
-      "distDir": "_site"
-    }
+    "use": "@vercel/static-build"
+  },
+  "config": {
+    "distDir": "_site"
   }
 }
